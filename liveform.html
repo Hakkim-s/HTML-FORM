@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Your Registration Goes Here</title>
+  <link rel="shortcut icon"  href="banner6.jpg">
+	<!-- Latest compiled and minified CSS & JS -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+	
+	<link rel="stylesheet" href="liveformstyle.css">
+</head>
+<body>
+	
+		
+	
+	<!-- Default form register -->
+<form>
+	<fieldset>
+	<div class="container ">
+		<div class="form-group col-md-6 col-lg-12">
+			
+		
+    <h2 class="text-center ">REGISTRATION FORM</h2>
+
+    <!-- Default input firstname -->
+    <label  class="grey-text">Your First name : </label>
+    <input  class="form-control" type="text" id="firstName" required >
+
+    <br>
+
+    <!-- Default input name -->
+    <label  class="grey-text">Your Last name : </label>
+    <input  class="form-control" type="text" id="lastName" required minlength="5" maxlength="20" value="123456789012345678901234567890">
+
+    <br>
+
+    <!-- Default input dob -->
+    <label  class="grey-text " >DOB : </label>
+    <input class="input-append date form_datetime" type="date" value="2018-07-06" id="dob"><br>	
+     
+<br>
+
+     <!-- Default input gender -->
+    <label  class="grey-text">Gender : </label> <br>
+    <input  class="radio-inline" type="radio" name="gender" value="male" id="gender" checked>male
+    <input  class="radio-inline" type="radio" name="gender" value="female" id="gender" >Female
+    <input  class="radio-inline" type="radio" name="gender" value="others" id="gender">Others<br>
+
+<br>
+<!-- Default input marital -->
+    <label  class="grey-text">Marital status : </label><br>
+    <select name="marital status" 1>
+    	<option value="Single">Single</option>
+    	<option value="Unmarried">married</option>
+    	</select>
+    
+<br>
+<br>
+
+<!-- Default input qualification -->
+    <label  class="grey-text">Qualificaton : </label><br>
+    <input class="checkbox-inline" type="checkbox" name="SSLC" value="sslc" id="qualification">SSLC
+    <input class="checkbox-inline"  type="checkbox" name="HSC" vlaue="hsc" id="qualifiaction">HSC
+    <input class="checkbox-inline"   type="checkbox" name="UNDER GRADUATE" vlaue="under graduate" id="qualification">UNDER GRADUATE
+    <input class="checkbox-inline"  type="checkbox" name="POST GRADUATE" vlaue="post graduate" id="qualification">POST GRADUATE
+    <input class="checkbox-inline"  type="checkbox" name="Ph.D" vlaue="phd" id="qualification">Ph.D<br>
+ 
+<br>
+ <!-- default input experience -->
+   <label class="grey-text">Experience If any: </label><br>
+   <input type="number" name="Experience" min="0" max="10" step="1" value="1"><br>
+<br>
+  <!--Default input email -->
+    <label class="grey-text">Your email : </label>
+    <input  class="form-control" type="email" id="Email" required><br>  
+<br>
+<!--Default input phonenumber -->
+    <label class="grey-text">Your Phone number : </label>
+    <!-- <input  class="form-control" type="tel" id="phonenumber" required><br> -->
+
+
+<input type="text" name="Phone Number" pattern="[7-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9">
+<br>
+<br>
+<br>
+    <lable class="text-capitalize grey-text">Tell something About Your Experience :</lable><textarea name="message" id="" cols="10" rows="10"></textarea>
+<br>
+
+    <div class="text-center  ">
+        <button type="sumbit" class="btn btn-danger" >Register</button>
+        
+        <button type="reset" class="btn btn-primary">Reset</button>
+    </div>
+    </div>
+</div>
+</fieldset>
+</form>
+</div>
+</div>
+
+
+
+<!-- Default form register -->
+</body>
+</html>
